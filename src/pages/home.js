@@ -46,8 +46,14 @@ export const home = (reset = false) => {
 
   const feat1title= S('lp_feat1_title',   '100% Authentic & Natural')
   const feat1desc = S('lp_feat1_desc',    'Free from artificial chemicals, synthetic fragrances, or color manipulation.')
-  const feat2title= S('lp_feat2_title',   'Direct Forest Harvest')
-  const feat2desc = S('lp_feat2_desc',    'Harvested directly by seasoned agarwood hunters deep in Asian native rainforests.')
+  let feat2title  = S('lp_feat2_title', '')
+  if (!feat2title || feat2title === 'Direct Forest Harvest' || feat2title === 'Kurasi Langsung dari Hutan') {
+    feat2title = 'Natural Agarwood Sourcing'
+  }
+  let feat2desc   = S('lp_feat2_desc', '')
+  if (!feat2desc || feat2desc.includes('Harvested directly by seasoned') || feat2desc.includes('Dipanen langsung oleh pemburu')) {
+    feat2desc = 'Carefully harvested from natural forests and selected by experienced agarwood specialists with extensive knowledge and expertise.'
+  }
   const feat3title= S('lp_feat3_title',   'Super Sinking Grade')
   const feat3desc = S('lp_feat3_desc',    'High-density resin that sinks in water, delivering an everlasting deep scent.')
 

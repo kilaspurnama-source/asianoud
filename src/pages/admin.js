@@ -1304,8 +1304,8 @@ const tabCms = el => {
       fields: [
         { key: 'lp_feat1_title', label: 'Keunggulan 1: Judul',      type: 'text', ph: '100% Autentik & Alami',     def: '100% Autentik & Alami' },
         { key: 'lp_feat1_desc',  label: 'Keunggulan 1: Keterangan', type: 'text', ph: 'Bebas bahan kimia...',      def: 'Bebas dari bahan kimia buatan, pewangi sintetis, atau manipulasi warna resin.' },
-        { key: 'lp_feat2_title', label: 'Keunggulan 2: Judul',      type: 'text', ph: 'Kurasi Langsung dari Hutan',def: 'Kurasi Langsung dari Hutan' },
-        { key: 'lp_feat2_desc',  label: 'Keunggulan 2: Keterangan', type: 'text', ph: 'Dipanen oleh pemburu...',   def: 'Dipanen langsung oleh pemburu gaharu berpengalaman dari hutan pedalaman Asia.' },
+        { key: 'lp_feat2_title', label: 'Keunggulan 2: Judul',      type: 'text', ph: 'Natural Agarwood Sourcing', def: 'Natural Agarwood Sourcing' },
+        { key: 'lp_feat2_desc',  label: 'Keunggulan 2: Keterangan', type: 'text', ph: 'Carefully harvested from natural forests...', def: 'Carefully harvested from natural forests and selected by experienced agarwood specialists with extensive knowledge and expertise.' },
         { key: 'lp_feat3_title', label: 'Keunggulan 3: Judul',      type: 'text', ph: 'Mutu Super Sinking',        def: 'Mutu Super Sinking' },
         { key: 'lp_feat3_desc',  label: 'Keunggulan 3: Keterangan', type: 'text', ph: 'Kandungan resin padat...',  def: 'Kandungan resin padat tinggi yang tenggelam di air dengan profil aroma abadi.' }
       ]
